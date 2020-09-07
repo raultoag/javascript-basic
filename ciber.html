@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ciber</title>
+    <script src="js/functions.js"></script>
+</head>
+<body>
+    <!-- ejercicio 5 -->
+    <input type="number" name="numero" step="0.01" id="notaExam" min="0" max="10" value="">
+    <input type="button" name="boton" onclick="examen()" value="enviar nota"><br><br><br>
+    <!-- ejercicio 8 -->
+		
+    <div >
+        <label >Primer numero</label>
+        <input type="number" name="primerNumero"  value="0" step="any" id="numero1">
+    </div>
+    <div >
+        <label >Operación</label>
+        <input type="Button" name="" value=" + " onclick="calculadora('suma')">
+        <input type="Button" name="" value=" - " onclick="calculadora('resta')">
+        <input type="Button" name="" value=" X " onclick="calculadora('mult')">
+
+    </div>
+    <div class="form-group col">
+        <label>Segundo numero</label>
+        <input type="number" name="segundoNumero"  value="0" step="any" id="numero2">
+    </div>
+    <div class="row">
+        <div class="divResult">
+            <label>Resultado:</label>
+            <input type="text" name="resultado" id="calculadora" disabled class="text-center" step="any" value="">
+            
+        </div>
+    </div>
+</body>
+</html>
