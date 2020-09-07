@@ -54,8 +54,8 @@ for (let i = 0; i < moviliario.length; i++) {
 //Ejercicio 8
 
 function calculadora(operacion){
-    var numero1 = document.getElementById("numero1").value;
-    var numero2 = document.getElementById("numero2").value;
+    var numero1 = parseInt(document.getElementById("numero1").value);
+    var numero2 = parseInt(document.getElementById("numero2").value);
     console.log(operacion);
 
     if (operacion == "suma") {
